@@ -1,0 +1,31 @@
+cooking_recipes:
+  syals_delight:fallback_fried_naquadah_potato_slice:
+    ingredients:
+      - syals_delight:potato_slice
+      - syals_delight:potato_slice
+      - '#syals_delight:food_oil'
+      - minecraft:amethyst_shard
+    result: syals_delight:fried_naquadah_potato_slice
+    result-count: 2
+    experience: 0.0
+    cook-time: 200
+    category: misc
+  syals_delight:fallback_underground_oil_bottle:
+    ingredients:
+      - minecraft:coal
+      - minecraft:coal
+    result: syals_delight:underground_oil_bottle
+    result-count: 1
+    experience: 0.0
+    cook-time: 200
+    category: misc
+  syals_delight:fallback_zombie_oil_bottle:
+    ingredients:
+      - minecraft:rotten_flesh
+      - minecraft:rotten_flesh
+    result: syals_delight:zombie_oil_bottle
+    result-count: 1
+    experience: 0.0
+    cook-time: 200
+    category: misc
+

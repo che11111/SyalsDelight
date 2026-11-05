@@ -1,0 +1,11 @@
+# 本插件沿用 FarmersDelight 的公共烹饪锅和砧板配方页面，没有独立工作站 GUI。
+# This add-on uses FarmersDelight's public cooking-pot and cutting-board pages
+# and does not define a private station GUI.
+recipe-pages:
+  # 烹饪锅配方进入公共 cooking_pot 页面。
+  # Cooking-pot recipes belong to the public cooking_pot page.
+  cooking-pot: farmersdelight:cooking_pot
+  # 砧板配方进入公共 cutting_board 页面。
+  # Cutting-board recipes belong to the public cutting_board page.
+  cutting-board: farmersdelight:cutting_board
+

@@ -1,0 +1,268 @@
+templates:
+  syals_delight:food:
+    material: nether_brick
+    model: ${__NAMESPACE__}:item/${__ID__}
+  syals_delight:oil:
+    material: nether_brick
+    model: ${__NAMESPACE__}:item/${__ID__}
+    settings:
+      craft-remainder:
+        type: fixed
+        item: minecraft:glass_bottle
+        count: 1
+
+items:
+  syals_delight:syals:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.syals>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:bag_o_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.bag_o_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:kettle_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.kettle_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:naquadah_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.naquadah_chips>
+      food:
+        nutrition: 189
+        saturation: 25099.2
+        can-always-eat: false
+  syals_delight:reduced_fat_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.reduced_fat_chips>
+      food:
+        nutrition: 4
+        saturation: 68.8
+        can-always-eat: false
+  syals_delight:vinegar_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.vinegar_chips>
+      food:
+        nutrition: 6
+        saturation: 118.8
+        can-always-eat: false
+  syals_delight:donkey_burger_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.donkey_burger_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:smoker_ham_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.smoker_ham_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:onion_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.onion_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:spicy_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.spicy_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:tomato_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.tomato_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:astera_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.astera_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:broccoli_flavored_slimming_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.broccoli_flavored_slimming_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:pesto_flavored_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.pesto_flavored_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:steak_chimichurri_chips:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.steak_chimichurri_chips>
+      food:
+        nutrition: 6
+        saturation: 111.6
+        can-always-eat: false
+  syals_delight:batch_fried_potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.batch_fried_potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:fried_naquadah_potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.fried_naquadah_potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:fried_potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.fried_potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:greasy_potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.greasy_potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:hot_potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.hot_potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:low_fat_potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.low_fat_potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:potato_slice:
+    template: syals_delight:food
+    data:
+      item-name: <!i><lang:item.syals_delight.potato_slice>
+      food:
+        nutrition: 2
+        saturation: 8.0
+        can-always-eat: false
+  syals_delight:chips_bag:
+    material: nether_brick
+    model: syals_delight:item/chips_bag
+    data:
+      item-name: <!i><lang:item.syals_delight.chips_bag>
+  syals_delight:syals_bag:
+    material: nether_brick
+    model: syals_delight:item/syals_bag
+    data:
+      item-name: <!i><lang:item.syals_delight.syals_bag>
+  syals_delight:peeled_potato:
+    material: nether_brick
+    model: syals_delight:item/peeled_potato
+    data:
+      item-name: <!i><lang:item.syals_delight.peeled_potato>
+  syals_delight:animal_fat:
+    material: nether_brick
+    model: syals_delight:item/animal_fat
+    data:
+      item-name: <!i><lang:item.syals_delight.animal_fat>
+  syals_delight:oil_bottle:
+    template: syals_delight:oil
+    data:
+      item-name: <!i><lang:item.syals_delight.oil_bottle>
+    settings:
+      tags:
+        - syals_delight:food_oil
+      craft-remainder:
+        type: fixed
+        item: minecraft:glass_bottle
+        count: 1
+  syals_delight:zombie_oil_bottle:
+    template: syals_delight:oil
+    data:
+      item-name: <!i><lang:item.syals_delight.zombie_oil_bottle>
+    settings:
+      tags:
+        - syals_delight:food_oil
+      craft-remainder:
+        type: fixed
+        item: minecraft:glass_bottle
+        count: 1
+  syals_delight:underground_oil_bottle:
+    template: syals_delight:oil
+    data:
+      item-name: <!i><lang:item.syals_delight.underground_oil_bottle>
+    settings:
+      tags:
+        - syals_delight:food_oil
+      craft-remainder:
+        type: fixed
+        item: minecraft:glass_bottle
+        count: 1
+  syals_delight:peeler:
+    material: nether_brick
+    model: syals_delight:item/peeler
+    data:
+      item-name: <!i><lang:item.syals_delight.peeler>
+      max-stack-size: 1
+      max-damage: 131
+      hide-tooltip:
+        - attribute_modifiers
+      components:
+        minecraft:enchantable:
+          value: 5
+      attribute-modifiers:
+        - type: minecraft:attack_damage
+          slot: mainhand
+          amount: 4
+          operation: add_value
+        - type: minecraft:attack_speed
+          slot: mainhand
+          amount: -2.4
+          operation: add_value
+    settings:
+      farmersdelight:durable:
+        max-durability: 131
+

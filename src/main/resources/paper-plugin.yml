@@ -1,0 +1,19 @@
+name: SyalsDelight
+version: '${version}'
+main: dev.che1s.syalsdelight.SyalsDelightPlugin
+api-version: '1.21.5'
+folia-supported: true
+description: CraftEngine and FarmersDelight port of Syal's Delight.
+authors:
+  - che1s
+dependencies:
+  server:
+    CraftEngine:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    FarmersDelight:
+      load: BEFORE
+      required: true
+      join-classpath: true
+

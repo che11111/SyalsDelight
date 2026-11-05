@@ -1,0 +1,14 @@
+cutting_recipes:
+  syals_delight:potato_to_peeled_potato:
+    input: minecraft:potato
+    tool: syals_delight:peeler
+    results:
+      - item: syals_delight:peeled_potato
+        count: 1
+  syals_delight:peeled_potato_to_potato_slices:
+    input: syals_delight:peeled_potato
+    tool: '#farmersdelight:tools/knives'
+    results:
+      - item: syals_delight:potato_slice
+        count: 3
+

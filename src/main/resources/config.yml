@@ -1,0 +1,43 @@
+# 玩家消息默认语言：zh_cn、en_us 或 lang/<code>.yml。
+# Default player-message language: zh_cn, en_us, or a code in lang/<code>.yml.
+language: zh_cn
+
+craftengine-resources:
+  # 每次启动补回本附属命名空间中缺失的资源文件。
+  # Restore missing files in this add-on's namespace on every start.
+  auto-completion: true
+  # 插件版本变化时替换本附属资源包并删除旧版本文件。
+  # Replace the owned pack and remove stale files when the plugin version changes.
+  update-on-version-change: true
+
+# 原模组的七种实体在死亡时追加动物脂肪。
+# The original mod adds one animal fat to each of these seven entity deaths.
+animal-fat-drop:
+  # 是否启用额外掉落。
+  # Whether the extra drop is enabled.
+  enabled: true
+  # 每个匹配实体掉落的数量；原模组默认是 1。
+  # Amount per matching death; the original default is 1.
+  amount: 1
+  # 追加掉落的概率；原模组默认每次成功追加，即 1.0。
+  # Extra-drop chance; the original behavior always appends one item, so 1.0.
+  chance: 1.0
+  # 使用 Paper 实体类型名，大小写不敏感。默认严格保留原模组七种实体。
+  # Paper entity type names, case-insensitive. Defaults preserve all seven source entities.
+  entities:
+    - COW
+    - PIG
+    - SHEEP
+    - CHICKEN
+    - RABBIT
+    - GOAT
+    - MOOSHROOM
+
+compatibility:
+  # FarmersDelight 提示物品可用后检查可选 CraftEngine 物品。
+  # Check optional CraftEngine items after FarmersDelight signals item readiness.
+  check-on-warmup: true
+  # 缺失可选物品时输出警告；fallback 配方仍可使用。
+  # Warn when optional items are absent; fallback recipes remain available.
+  warn-missing-optional-items: true
+

@@ -1,0 +1,4 @@
+# 复制为 local.properties 后填写本机 FarmersDelight 源码目录。
+# Copy to local.properties and point it at a local FarmersDelight checkout.
+farmersDelightCheckout=../path/to/Farmersdelight-Plugin
+

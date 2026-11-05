@@ -1,0 +1,150 @@
+recipes:
+  syals_delight:chips_bag:
+    type: shaped
+    category: misc
+    pattern:
+      - PP
+      - PP
+    ingredients:
+      P: minecraft:paper
+    result:
+      id: syals_delight:chips_bag
+      count: 1
+  syals_delight:peeler:
+    type: shaped
+    category: equipment
+    pattern:
+      - '   '
+      - 'A  '
+      - ' B '
+    ingredients:
+      A: minecraft:iron_ingot
+      B: minecraft:stick
+    result:
+      id: syals_delight:peeler
+      count: 1
+  syals_delight:bag_o_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:greasy_potato_slice
+      - syals_delight:greasy_potato_slice
+      - syals_delight:greasy_potato_slice
+      - syals_delight:greasy_potato_slice
+      - syals_delight:chips_bag
+    result:
+      id: syals_delight:bag_o_chips
+      count: 1
+  syals_delight:kettle_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:hot_potato_slice
+      - syals_delight:hot_potato_slice
+      - syals_delight:hot_potato_slice
+      - syals_delight:hot_potato_slice
+      - syals_delight:chips_bag
+    result:
+      id: syals_delight:kettle_chips
+      count: 1
+  syals_delight:naquadah_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - syals_delight:fried_naquadah_potato_slice
+      - syals_delight:fried_naquadah_potato_slice
+      - syals_delight:fried_naquadah_potato_slice
+      - syals_delight:fried_naquadah_potato_slice
+    result:
+      id: syals_delight:naquadah_chips
+      count: 1
+  syals_delight:reduced_fat_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:low_fat_potato_slice
+      - minecraft:salmon
+      - syals_delight:chips_bag
+    result:
+      id: syals_delight:reduced_fat_chips
+      count: 1
+  syals_delight:syals:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:batch_fried_potato_slice
+      - syals_delight:batch_fried_potato_slice
+      - syals_delight:batch_fried_potato_slice
+      - syals_delight:batch_fried_potato_slice
+      - syals_delight:syals_bag
+    result:
+      id: syals_delight:syals
+      count: 1
+  syals_delight:syals_bag:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - minecraft:yellow_dye
+      - minecraft:red_dye
+    result:
+      id: syals_delight:syals_bag
+      count: 1
+  syals_delight:spicy_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - minecraft:blaze_powder
+      - minecraft:blaze_powder
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:spicy_chips
+      count: 1
+  syals_delight:onion_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - farmersdelight:onion
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:onion_chips
+      count: 1
+  syals_delight:tomato_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - farmersdelight:tomato
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:tomato_chips
+      count: 1
+  syals_delight:smoker_ham_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - farmersdelight:smoked_ham
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:smoker_ham_chips
+      count: 1
+

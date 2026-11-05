@@ -1,0 +1,84 @@
+# 本文件只包含缺失可选模组时使用的替代配方，不注册外部命名空间物品。
+# This file contains substitutes used when optional mods are absent. It never
+# references an unavailable external namespace as an ingredient.
+recipes:
+  syals_delight:fallback_astera_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - minecraft:amethyst_shard
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:astera_chips
+      count: 1
+  syals_delight:fallback_broccoli_flavored_slimming_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - farmersdelight:cabbage
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:low_fat_potato_slice
+    result:
+      id: syals_delight:broccoli_flavored_slimming_chips
+      count: 1
+  syals_delight:fallback_donkey_burger_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - minecraft:cooked_beef
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:donkey_burger_chips
+      count: 1
+  syals_delight:fallback_pesto_flavored_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - farmersdelight:tomato_sauce
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:pesto_flavored_chips
+      count: 1
+  syals_delight:fallback_steak_chimichurri_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - farmersdelight:tomato_sauce
+      - minecraft:cooked_beef
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:steak_chimichurri_chips
+      count: 1
+  syals_delight:fallback_vinegar_chips:
+    type: shapeless
+    category: misc
+    ingredients:
+      - syals_delight:chips_bag
+      - minecraft:honey_bottle
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:fried_potato_slice
+    result:
+      id: syals_delight:vinegar_chips
+      count: 1
+

@@ -1,0 +1,6 @@
+author: SyalsDelight
+version: ${version}
+description: Syal's Delight - CraftEngine content pack
+namespace: syals_delight
+enable: true
+

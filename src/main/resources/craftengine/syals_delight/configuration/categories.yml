@@ -1,0 +1,48 @@
+categories:
+  syals_delight:categories:
+    name: <!i><white><lang:syals_delight.category.root></white>
+    icon: syals_delight:syals
+    list:
+      - '#syals_delight:food'
+      - '#syals_delight:material'
+  syals_delight:food:
+    name: <!i><lang:syals_delight.category.food>
+    hidden: true
+    icon: syals_delight:syals
+    list:
+      - syals_delight:syals
+      - syals_delight:bag_o_chips
+      - syals_delight:kettle_chips
+      - syals_delight:naquadah_chips
+      - syals_delight:reduced_fat_chips
+      - syals_delight:vinegar_chips
+      - syals_delight:donkey_burger_chips
+      - syals_delight:smoker_ham_chips
+      - syals_delight:onion_chips
+      - syals_delight:spicy_chips
+      - syals_delight:tomato_chips
+      - syals_delight:astera_chips
+      - syals_delight:broccoli_flavored_slimming_chips
+      - syals_delight:pesto_flavored_chips
+      - syals_delight:steak_chimichurri_chips
+      - syals_delight:batch_fried_potato_slice
+      - syals_delight:fried_naquadah_potato_slice
+      - syals_delight:fried_potato_slice
+      - syals_delight:greasy_potato_slice
+      - syals_delight:hot_potato_slice
+      - syals_delight:low_fat_potato_slice
+      - syals_delight:potato_slice
+  syals_delight:material:
+    name: <!i><lang:syals_delight.category.material>
+    hidden: true
+    icon: syals_delight:animal_fat
+    list:
+      - syals_delight:chips_bag
+      - syals_delight:syals_bag
+      - syals_delight:peeled_potato
+      - syals_delight:animal_fat
+      - syals_delight:oil_bottle
+      - syals_delight:zombie_oil_bottle
+      - syals_delight:underground_oil_bottle
+      - syals_delight:peeler
+
