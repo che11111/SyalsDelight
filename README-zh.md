@@ -156,8 +156,7 @@ GNU Affero 通用公共许可证第 3 版（AGPL-3.0-only）。
 
 ## 赞助与支持
 
-如果本项目对你有帮助，可以通过 Ko-fi 或爱发电赞助开发。赞助后可提供插件安装、
-配置与故障排查问答服务。
+如果本项目对你有帮助，可以通过 Ko-fi 或爱发电赞助开发。赞助后可提供插件安装、配置与故障排查等问答服务。
 
 <div align="center">
   <a href="https://ko-fi.com/J5C529ZWWL" target="_blank"><img height="36" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" border="0" alt="在 Ko-fi 赞助"></a>
