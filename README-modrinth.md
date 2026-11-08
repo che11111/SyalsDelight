@@ -15,12 +15,7 @@
 
 ## About
 
-SyalsDelight ports the main gameplay of
-[syals-delight](https://github.com/y271727uy/syals-delight) to a CraftEngine-powered
-Paper/Folia server plugin. It is an add-on for
-[FarmersDelight](https://github.com/IOVEYOUMC0/Farmersdelight-Plugin) and includes
-custom food, a potato processing chain, flavored chips, oil bottles, animal-fat
-drops, a peeler, and public cooking-pot and cutting-board recipe pages.
+SyalsDelight ports the main gameplay of [syals-delight](https://github.com/y271727uy/syals-delight) to a CraftEngine-powered Paper/Folia server plugin. It is an add-on for [FarmersDelight](https://github.com/IOVEYOUMC0/Farmersdelight-Plugin) and includes custom food, a potato processing chain, flavored chips, oil bottles, animal-fat drops, a peeler, and public cooking-pot and cutting-board recipe pages.
 
 The port baseline is the upstream `main` branch, mod version `1.20.1-1.0.2`.
 
