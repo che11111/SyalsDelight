@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/SyalsDelight-CE.png" width="180" alt="SyalsDelight-CE logo">
+  <img src="img/SyalsDelight-CE.png" width="128" alt="SyalsDelight-CE logo">
   <h1>SyalsDelight-CE</h1>
   <p>A Paper/Folia server port powered by CraftEngine and FarmersDelight.</p>
 </div>

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/SyalsDelight-CE.png" width="180" alt="SyalsDelight-CE 项目标志">
+  <img src="img/SyalsDelight-CE.png" width="128" alt="SyalsDelight-CE 项目标志">
   <h1>SyalsDelight-CE</h1>
   <p>基于 CraftEngine 与 FarmersDelight 的 Paper/Folia 服务端移植版。</p>
 </div>
