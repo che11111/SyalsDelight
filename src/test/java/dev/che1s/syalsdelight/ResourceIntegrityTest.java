@@ -1,5 +1,6 @@
 package dev.che1s.syalsdelight;
 
+import dev.che1s.syalsdelight.util.LanguageResolver;
 import org.junit.jupiter.api.Test;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -98,23 +99,14 @@ class ResourceIntegrityTest {
 
     @Test
     void languageKeysMatchAcrossJsonAndCraftEngineTranslations() throws Exception {
-        Map<String, Object> zhJson = loadJson(ASSETS.resolve("lang/zh_cn.json"));
         Map<String, Object> enJson = loadJson(ASSETS.resolve("lang/en_us.json"));
-        assertEquals(zhJson.keySet(), enJson.keySet());
-        assertEquals(34, zhJson.size());
+        assertEquals(34, enJson.size());
 
         Map<String, Object> translationsRoot = loadYaml(
                 PACK.resolve("configuration/translations.yml")
         );
-        Map<String, Object> en = map(translationsRoot.get("translations")).get("en")
-                instanceof Map<?, ?> value
-                ? castMap(value)
-                : Map.of();
-        Map<String, Object> zh = map(translationsRoot.get("translations")).get("zh_cn")
-                instanceof Map<?, ?> value
-                ? castMap(value)
-                : Map.of();
-        assertEquals(en.keySet(), zh.keySet());
+        Map<String, Object> translations = map(translationsRoot.get("translations"));
+        Map<String, Object> en = map(translations.get("en"));
 
         Map<String, Object> items = loadYaml(
                 PACK.resolve("configuration/items.yml")
@@ -123,13 +115,28 @@ class ResourceIntegrityTest {
         for (String itemId : definitions.keySet()) {
             String name = itemId.substring("syals_delight:".length());
             String key = "item.syals_delight." + name;
-            assertTrue(zhJson.containsKey(key), () -> "中文缺少：" + key);
             assertTrue(enJson.containsKey(key), () -> "英文缺少：" + key);
-            assertEquals(zhJson.get(key), zh.get(key));
             assertEquals(enJson.get(key), en.get(key));
         }
-        assertEquals(zhJson.keySet(), zh.keySet());
         assertEquals(enJson.keySet(), en.keySet());
+
+        for (String language : LanguageResolver.SUPPORTED) {
+            Map<String, Object> json = loadJson(ASSETS.resolve("lang/" + language + ".json"));
+            assertEquals(enJson.keySet(), json.keySet(), language);
+            for (Map.Entry<String, Object> entry : json.entrySet()) {
+                assertTrue(!String.valueOf(entry.getValue()).isBlank(), language + ":" + entry.getKey());
+            }
+
+            String translationCode = "en_us".equals(language) ? "en" : language;
+            Map<String, Object> translated = map(translations.get(translationCode));
+            assertEquals(json.keySet(), translated.keySet(), translationCode);
+            assertEquals(json, translated, translationCode);
+        }
+
+        Map<String, Object> config = ResourceIntegrityTest.loadYaml(
+                RESOURCES.resolve("config.yml")
+        );
+        assertEquals("auto", config.get("language"));
     }
 
     @Test

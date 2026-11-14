@@ -17,8 +17,8 @@ plugin:
   content-recipe-missing: 'Recipe is missing: {id}'
   content-readiness-summary: 'Content readiness: {items}/{expectedItems} items, {recipes}/{expectedRecipes} station recipes.'
   language:
-    invalid-code: 'Invalid language code "{code}"; using zh_cn.'
-    load-failed: 'Could not load language "{code}"; using zh_cn.'
+    invalid-code: 'Could not resolve language "{code}" from server locale {server}; using en_us.'
+    load-failed: 'Could not load language "{code}"; using en_us.'
     bundled-missing: 'Bundled language file is missing: {code}'
     save-failed: 'Could not prepare language file "{file}": {error}'
 

@@ -17,8 +17,8 @@ plugin:
   content-recipe-missing: '配方未加载：{id}'
   content-readiness-summary: '内容就绪检查：{items}/{expectedItems} 个物品，{recipes}/{expectedRecipes} 个工作站配方。'
   language:
-    invalid-code: '语言代码“{code}”无效，已改用 zh_cn。'
-    load-failed: '无法加载语言“{code}”，已改用 zh_cn。'
+    invalid-code: '无法从服务器语言“{server}”识别配置“{code}”，已改用 en_us。'
+    load-failed: '无法加载语言“{code}”，已改用 en_us。'
     bundled-missing: '内置语言文件缺失：{code}'
     save-failed: '无法准备语言文件“{file}”：{error}'
 

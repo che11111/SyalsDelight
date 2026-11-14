@@ -132,7 +132,7 @@ fallback 配方位于 `configuration/compatibility_fallback_recipes.yml` 和
 1. 安装 Java 21，以及 Paper 26.3 或 Folia 26.3。
 2. 安装 CraftEngine 26.9.1 或更新版本。
 3. 安装 FarmersDelight-Plugin 1.0.3。
-4. 将 `SyalsDelight-1.0.0.jar` 放入 `plugins/`。
+4. 将 `SyalsDelight-1.0.5.jar` 放入 `plugins/`。
 5. 完整停止并重新启动服务器。
 
 首次启动会安装 `plugins/CraftEngine/resources/syals_delight`，并写入
@@ -146,6 +146,17 @@ fallback 配方位于 `configuration/compatibility_fallback_recipes.yml` 和
 实体列表，以及 FarmersDelight 完成预热后的可选物品检查。
 
 `gui.yml` 只记录使用 FarmersDelight 公共配方页的配置。本附属没有私有工作站 GUI。
+
+## 语言
+
+全局消息语言默认使用 `auto`。插件根据服务端 JVM/系统 Locale 自动选择英语、简体中文、日语、韩语、繁体中文、德语、法语、西班牙语或俄语；无法识别时回退到英语。物品、方块和分类名称仍跟随玩家客户端语言。
+
+```yaml
+# plugins/SyalsDelight/config.yml
+language: auto
+# 也可填写 en_us.yml、zh_cn.yml、ja_jp.yml、ko_kr.yml、zh_tw.yml、
+# de_de.yml、fr_fr.yml、es_es.yml 或 ru_ru.yml。
+```
 
 
 

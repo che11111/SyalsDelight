@@ -42,7 +42,7 @@ The port baseline is the upstream `main` branch, mod version `1.20.1-1.0.2`.
 
 ## Items and Acquisition
 
-| Item | Obtaining | Item | Obtaining |
+| Item | How to obtain | Item | How to obtain |
 |---|---|---|---|
 | <img src="img/items/syals.png" width="48" alt="Syals"><br><small>Syals</small> | Crafting table, shapeless: 4 batch-fried slices + Syal's bag | <img src="img/items/bag_o_chips.png" width="48" alt="Bag O' Chips"><br><small>Bag O' Chips</small> | Crafting table, shapeless: 4 greasy slices + chips bag |
 | <img src="img/items/kettle_chips.png" width="48" alt="Kettle Chips"><br><small>Kettle Chips</small> | Crafting table, shapeless: 4 hot slices + chips bag | <img src="img/items/naquadah_chips.gif" width="48" alt="Naquadah Chips"><br><small>Naquadah Chips</small> | Crafting table, shapeless: 4 fried naquadah slices + chips bag |
@@ -159,7 +159,7 @@ write unknown namespaces into the running CraftEngine recipes.
 1. Install Java 21 and Paper 26.3 or Folia 26.3.
 2. Install CraftEngine 26.9.1 or newer.
 3. Install FarmersDelight-Plugin 1.0.3.
-4. Place `SyalsDelight-1.0.0.jar` in `plugins/`.
+4. Place `SyalsDelight-1.0.5.jar` in `plugins/`.
 5. Fully stop and restart the server.
 
 The first start installs `plugins/CraftEngine/resources/syals_delight` and
@@ -176,6 +176,21 @@ checking after FarmersDelight warmup.
 
 `gui.yml` only records the use of FarmersDelight's public recipe pages. This
 add-on has no private station GUI.
+
+## Language
+
+Global messages use `auto` by default. The plugin resolves the server JVM/system
+locale to English, Simplified Chinese, Japanese, Korean, Traditional Chinese,
+German, French, Spanish, or Russian, and falls back to English for unsupported
+locales. Item, block, and category names continue to follow each player's client
+language.
+
+```yaml
+# plugins/SyalsDelight/config.yml
+language: auto
+# Explicit options: en_us.yml, zh_cn.yml, ja_jp.yml, ko_kr.yml, zh_tw.yml,
+# de_de.yml, fr_fr.yml, es_es.yml, ru_ru.yml
+```
 
 ## License
 
